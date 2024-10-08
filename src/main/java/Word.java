@@ -8,10 +8,6 @@ public class Word implements SentencePart {
         letters = new ArrayList<>();
     }
 
-    public Word(List<Letter> letters) {
-        this.letters = letters;
-    }
-
     public void addLetter(Letter letter) {
         letters.add(letter);
     }

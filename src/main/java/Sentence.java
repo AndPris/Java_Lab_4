@@ -5,11 +5,7 @@ public class Sentence {
     List<SentencePart> sentenceParts;
 
     public Sentence() {
-        sentenceParts = new ArrayList<SentencePart>();
-    }
-
-    public Sentence(List<SentencePart> sentenceParts) {
-        this.sentenceParts = sentenceParts;
+        sentenceParts = new ArrayList<>();
     }
 
     public void addSentencePart(SentencePart sentencePart) {
@@ -27,7 +23,7 @@ public class Sentence {
     }
 
     public String getLastPart() {
-        return sentenceParts.get(sentenceParts.size() - 1).getValue();
+        return sentenceParts.getLast().getValue();
     }
 
     public boolean isEmpty() {

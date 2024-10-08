@@ -1,3 +1,3 @@
 public interface SentencePart {
-    public String getValue();
+    String getValue();
 }

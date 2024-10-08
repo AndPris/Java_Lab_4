@@ -6,7 +6,7 @@ public class Text {
     List<Sentence> sentences;
 
     public Text() {
-        sentences = new ArrayList<Sentence>();
+        sentences = new ArrayList<>();
     }
 
     public void addSentence(Sentence s) {
