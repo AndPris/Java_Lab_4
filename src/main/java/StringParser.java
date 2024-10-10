@@ -45,7 +45,7 @@ public class StringParser {
 
     private boolean canSkipPunctuation(PunctuationMark c) {
         if(sentence.isEmpty())
-            return false;
+            return !c.getValue().equals(" ");
 
         return sentence.getLastPart().equals(c.getValue());
     }
