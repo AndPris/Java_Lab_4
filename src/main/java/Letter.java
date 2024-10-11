@@ -1,3 +1,6 @@
+/**
+ * Class which represents single letter.
+ */
 public class Letter extends Symbol {
     /**
      * 

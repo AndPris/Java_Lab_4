@@ -1,3 +1,7 @@
+/**
+ * Class which converts String into Text object.
+ * @see Text
+ */
 public class StringParser {
     Text text;
     Word word;

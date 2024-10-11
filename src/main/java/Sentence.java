@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class which represents single sentence.
+ * @see SentencePart
+ */
 public class Sentence {
     List<SentencePart> sentenceParts;
 

@@ -1,3 +1,6 @@
+/**
+ * Class which represents single punctuation mark.
+ */
 public class PunctuationMark extends Symbol implements SentencePart {
     /**
      *

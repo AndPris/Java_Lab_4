@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class which represents single word.
+ * @see Letter
+ */
 public class Word implements SentencePart {
     List<Letter> letters;
 

@@ -1,3 +1,6 @@
+/**
+ * Abstract class which represents any single symbol.
+ */
 public abstract class Symbol {
     protected char symbol;
 

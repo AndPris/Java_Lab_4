@@ -12,3 +12,15 @@ You need [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-m
     `mvn clean compile exec:java`
 4. Run tests:<br>
     `mvn test`
+
+   
+# How to generate javadoc
+## 1. Using `javadoc`:
+1. In project root directory run:<br>
+   `javadoc -d docs -sourcepath src/main/java src/main/java/*`
+2. Navigate to `/docs` folder.
+
+## 2. Using maven:
+1. In project root directory run:<br>
+   `mvn javadoc:javadoc`
+2. Navigate to `/target/reports/apidocs` folder.

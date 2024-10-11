@@ -2,12 +2,16 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * Class which represents a piece of text.
+ * @see Sentence
+ */
 public class Text {
     List<Sentence> sentences;
 
     /**
      * Constructor. Creates empty list of sentence objects.
-     * @see SentencePart
+     * @see Sentence
      */
     public Text() {
         sentences = new ArrayList<>();
