@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-//        String test = "This\t is \tsimple   text. It\t has some \t sentences and,, maybe, punctuation marks. Short sentence.";
-        String test = "First  sentence.. Another \tone.\t This is the end.";
+        String test = "This\t is \tsimple   text. It\t has some \t sentences and,, maybe, punctuation marks. Short sentence.";
+//        String test = "First  sentence.. Another \tone.\t This is the end.";
         StringParser parser = new StringParser();
         Text text = parser.convertStringIntoText(test);
 
