@@ -6,6 +6,10 @@ public class Main {
         Text text = parser.convertStringIntoText(test);
 
         System.out.println("Original text:");
+        System.out.println(test);
+        System.out.println("\n=======================================\n");
+
+        System.out.println("Parsed text:");
         System.out.println(text.getValue());
         System.out.println("\n=======================================\n");
 
